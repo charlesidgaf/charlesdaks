@@ -2,7 +2,7 @@
 <body>
 
 
-<img src="https://thumbs.dreamstime.com/b/front-view-realistic-computer-monitor-keyboard-mouse-vector-illustration-isolated-white-background-30049253.jpg" alt="Pcset" usemap="#Pcset" width="400" height="379">
+<img src="https://thumbs.dreamstime.com/b/front-view-realistic-computer-monitor-keyboard-mouse-vector-illustration-isolated-white-background-30049253.jpg" alt="Pcset" usemap="#Pcsetmap" width="500" height="400">
 
 <map name="workmap">
   <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
