@@ -1,14 +1,1 @@
-<html>
-<body>
 
-
-<img src="https://thumbs.dreamstime.com/b/front-view-realistic-computer-monitor-keyboard-mouse-vector-illustration-isolated-white-background-30049253.jpg" alt="pcset" usemap="#pcsetmap" width="500" height="400">
-
-<map name="Pcsetmap">
-  <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.htm">
-  <area shape="rect" coords="290,172,333,250" alt="keyboard" href="keyboard.htm">
-  <area shape="circle" coords="337,300,44" alt="mouse" href="mouse.htm">
-</map>
-
-</body>
-</html>
