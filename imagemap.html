@@ -1,25 +1,54 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Image Map Example</title>
+    <title>Image Map</title>
 </head>
-<body style="background-color:lightblue;">
+
+<body style="background-color: lightblue;">
+
+
+<p align="center">
+    Click on the monitor, keyboard, or mouse to learn more about each device.
+</p>
 
 <center>
-  <img src="https://thumbs.dreamstime.com/b/front-view-realistic-computer-monitor-keyboard-mouse-vector-illustration-isolated-white-background-30049253.jpg" alt="monitor,keyboard,mouse" usemap="#pcsetmap" width="800">
-  
-  <map name="pcsetmap">
-    <area shape="rect" coords="95,46,699,382" alt="monitor" href="https://en.wikipedia.org/wiki/Computer_monitor">
-    <area shape="rect" coords="123,506,661,608" alt="keyboard" href="https://en.wikipedia.org/wiki/Computer_keyboard">
-    <area shape="circle" coords="723,561,48" alt="mouse" href="https://en.wikipedia.org/wiki/Computer_mouse">
-  </map>
+    <img src="https://thumbs.dreamstime.com/b/front-view-realistic-computer-monitor-keyboard-mouse-vector-illustration-isolated-white-background-30049253.jpg"
+         alt="Computer Set"
+         usemap="#pcsetmap"
+         width="800">
+
+    <map name="pcsetmap">
+        <!-- Monitor -->
+        <area shape="rect"
+              coords="120,30,680,350"
+              alt="Monitor"
+              href="https://en.wikipedia.org/wiki/Computer_monitor">
+
+        <!-- Keyboard -->
+        <area shape="rect"
+              coords="160,430,640,530"
+              alt="Keyboard"
+              href="https://en.wikipedia.org/wiki/Computer_keyboard">
+
+        <!-- Mouse -->
+        <area shape="circle"
+              coords="720,480,45"
+              alt="Mouse"
+              href="https://en.wikipedia.org/wiki/Computer_mouse">
+    </map>
 </center>
 
 <center>
-  <br><br>
-  <a href="index.html"><button>Main Page</button></a>
-  <br><br>
-  <a href="page2.html"><button>Page 2</button></a>
-  <br><br>
+    <br><br>
+    <a href="index.html">
+        <button>Main Page</button>
+    </a>
+
+    <br><br>
+
+    <a href="page2.html">
+        <button>Page 2</button>
+    </a>
 </center>
 
 </body>
